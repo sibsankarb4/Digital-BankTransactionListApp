@@ -1,0 +1,455 @@
+2018-09-02 14:48:30 INFO  ContextLoader:305 - Root WebApplicationContext: initialization started
+2018-09-02 14:48:31 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2018-09-02 14:48:31 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2018-09-02 14:48:31 DEBUG StandardServletEnvironment:109 - Adding [jndiProperties] PropertySource with lowest search precedence
+2018-09-02 14:48:31 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-09-02 14:48:31 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-09-02 14:48:31 DEBUG StandardServletEnvironment:127 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2018-09-02 14:48:31 DEBUG StandardServletEnvironment:174 - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2018-09-02 14:48:31 INFO  AnnotationConfigWebApplicationContext:581 - Refreshing Root WebApplicationContext: startup date [Sun Sep 02 14:48:31 IST 2018]; root of context hierarchy
+2018-09-02 14:48:31 DEBUG ClassPathBeanDefinitionScanner:244 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2018-09-02 14:48:31 DEBUG ClassPathBeanDefinitionScanner:252 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2018-09-02 14:48:31 INFO  AnnotationConfigWebApplicationContext:207 - Registering annotated classes: [class com.transactions.config.AppConfig]
+2018-09-02 14:48:31 DEBUG AnnotationConfigWebApplicationContext:615 - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@64c031c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:879 - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@38f2e929]
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:879 - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@248c1d82]
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:879 - Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@b18039b]
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:879 - Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@6d76da35]
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG StandardServletEnvironment:109 - Adding [class path resource [application.properties]] PropertySource with lowest search precedence
+2018-09-02 14:48:31 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-09-02 14:48:31 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-09-02 14:48:31 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-09-02 14:48:31 DEBUG ClassPathBeanDefinitionScanner:244 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2018-09-02 14:48:31 DEBUG ClassPathBeanDefinitionScanner:252 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2018-09-02 14:48:31 DEBUG PathMatchingResourcePatternResolver:317 - Resolved classpath location [com/transactions/] to resources [URL [file:/C:/new_workspace/BankTransactionListApp/target/classes/com/transactions/]]
+2018-09-02 14:48:31 DEBUG PathMatchingResourcePatternResolver:711 - Looking for matching resources in directory tree [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions]
+2018-09-02 14:48:31 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions] for files matching pattern [C:/new_workspace/BankTransactionListApp/target/classes/com/transactions/**/*.class]
+2018-09-02 14:48:31 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\config] for files matching pattern [C:/new_workspace/BankTransactionListApp/target/classes/com/transactions/**/*.class]
+2018-09-02 14:48:31 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view] for files matching pattern [C:/new_workspace/BankTransactionListApp/target/classes/com/transactions/**/*.class]
+2018-09-02 14:48:31 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view\controller] for files matching pattern [C:/new_workspace/BankTransactionListApp/target/classes/com/transactions/**/*.class]
+2018-09-02 14:48:31 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view\model] for files matching pattern [C:/new_workspace/BankTransactionListApp/target/classes/com/transactions/**/*.class]
+2018-09-02 14:48:31 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view\service] for files matching pattern [C:/new_workspace/BankTransactionListApp/target/classes/com/transactions/**/*.class]
+2018-09-02 14:48:31 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view\utils] for files matching pattern [C:/new_workspace/BankTransactionListApp/target/classes/com/transactions/**/*.class]
+2018-09-02 14:48:31 DEBUG PathMatchingResourcePatternResolver:483 - Resolved location pattern [classpath*:com/transactions/**/*.class] to resources [file [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\config\AppConfig.class], file [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\config\AppInitializer.class], file [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view\controller\TransactionsController.class], file [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view\model\HCLFieldTransaction.class], file [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view\service\TransactionsService.class], file [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view\utils\TransactionConstant.class]]
+2018-09-02 14:48:31 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view\controller\TransactionsController.class]
+2018-09-02 14:48:31 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\new_workspace\BankTransactionListApp\target\classes\com\transactions\view\service\TransactionsService.class]
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:164 - Registered bean definition for imported class 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.handlerExceptionResolver()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcContentNegotiationManager()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerMapping()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcConversionService()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerAdapter()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcResourceUrlProvider()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.httpRequestHandlerAdapter()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUriComponentsContributor()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.resourceHandlerMapping()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.simpleControllerHandlerAdapter()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.viewControllerHandlerMapping()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.beanNameHandlerMapping()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.defaultServletHandlerMapping()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcPathMatcher()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUrlPathHelper()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcValidator()
+2018-09-02 14:48:31 DEBUG ConfigurationClassBeanDefinitionReader:256 - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcViewResolver()
+2018-09-02 14:48:31 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced com.transactions.config.AppConfig; enhanced class name is: com.transactions.config.AppConfig$$EnhancerBySpringCGLIB$$a831b7c0
+2018-09-02 14:48:31 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'appConfig' existing class 'com.transactions.config.AppConfig' with enhanced class 'com.transactions.config.AppConfig$$EnhancerBySpringCGLIB$$a831b7c0'
+2018-09-02 14:48:31 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; enhanced class name is: org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$99a5e36e
+2018-09-02 14:48:31 DEBUG ConfigurationClassPostProcessor:409 - Replacing bean definition 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' existing class 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' with enhanced class 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$99a5e36e'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-09-02 14:48:31 INFO  AutowiredAnnotationBeanPostProcessor:156 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-09-02 14:48:31 DEBUG AnnotationConfigWebApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1d2d2229]
+2018-09-02 14:48:31 DEBUG AnnotationConfigWebApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@4e38a81e]
+2018-09-02 14:48:31 DEBUG UiApplicationContextUtils:85 - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@4d0a6e65]
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:744 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@64c031c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,transactionsController,transactionsService,org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration,handlerExceptionResolver,mvcContentNegotiationManager,requestMappingHandlerMapping,mvcConversionService,requestMappingHandlerAdapter,mvcResourceUrlProvider,httpRequestHandlerAdapter,mvcUriComponentsContributor,resourceHandlerMapping,simpleControllerHandlerAdapter,viewControllerHandlerMapping,beanNameHandlerMapping,defaultServletHandlerMapping,mvcPathMatcher,mvcUrlPathHelper,mvcValidator,mvcViewResolver]; root of factory hierarchy
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'transactionsController'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'transactionsController'
+2018-09-02 14:48:31 DEBUG InjectionMetadata:72 - Registered injected element on class [com.transactions.view.controller.TransactionsController]: AutowiredFieldElement for com.transactions.view.service.TransactionsService com.transactions.view.controller.TransactionsController.transactionsService
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'transactionsController' to allow for resolving potential circular references
+2018-09-02 14:48:31 DEBUG InjectionMetadata:86 - Processing injected element of bean 'transactionsController': AutowiredFieldElement for com.transactions.view.service.TransactionsService com.transactions.view.controller.TransactionsController.transactionsService
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'transactionsService'
+2018-09-02 14:48:31 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'transactionsService'
+2018-09-02 14:48:32 DEBUG InjectionMetadata:72 - Registered injected element on class [com.transactions.view.service.TransactionsService]: AutowiredFieldElement for private java.lang.String com.transactions.view.service.TransactionsService.apiUrl
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'transactionsService' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG InjectionMetadata:86 - Processing injected element of bean 'transactionsService': AutowiredFieldElement for private java.lang.String com.transactions.view.service.TransactionsService.apiUrl
+2018-09-02 14:48:32 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.service.url' in [servletConfigInitParams]
+2018-09-02 14:48:32 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.service.url' in [servletContextInitParams]
+2018-09-02 14:48:32 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.service.url' in [jndiProperties]
+2018-09-02 14:48:32 DEBUG JndiTemplate:150 - Looking up JNDI object with name [java:comp/env/api.service.url]
+2018-09-02 14:48:32 DEBUG JndiLocatorDelegate:101 - Converted JNDI name [java:comp/env/api.service.url] not found - trying original name [api.service.url]. javax.naming.NameNotFoundException: Name [api.service.url] is not bound in this Context. Unable to find [api.service.url].
+2018-09-02 14:48:32 DEBUG JndiTemplate:150 - Looking up JNDI object with name [api.service.url]
+2018-09-02 14:48:32 DEBUG JndiPropertySource:90 - JNDI lookup for name [api.service.url] threw NamingException with message: Name [api.service.url] is not bound in this Context. Unable to find [api.service.url].. Returning null.
+2018-09-02 14:48:32 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.service.url' in [systemProperties]
+2018-09-02 14:48:32 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.service.url' in [systemEnvironment]
+2018-09-02 14:48:32 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'api.service.url' in [class path resource [application.properties]]
+2018-09-02 14:48:32 DEBUG PropertySourcesPropertyResolver:90 - Found key 'api.service.url' in [class path resource [application.properties]] with type [String] and value 'https://apisandbox.openbankproject.com/obp/v1.2.1/banks/rbs/accounts/savings-kids-john/public/transactions'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'transactionsService'
+2018-09-02 14:48:32 DEBUG AutowiredAnnotationBeanPostProcessor:517 - Autowiring by type from bean name 'transactionsController' to bean named 'transactionsService'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'transactionsController'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'transactionsService'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG InjectionMetadata:72 - Registered injected element on class [org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$99a5e36e]: AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG InjectionMetadata:86 - Processing injected element of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'handlerExceptionResolver'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'handlerExceptionResolver'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'mvcContentNegotiationManager'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'mvcContentNegotiationManager'
+2018-09-02 14:48:32 DEBUG ExceptionHandlerExceptionResolver:258 - Looking for exception mappings: Root WebApplicationContext: startup date [Sun Sep 02 14:48:31 IST 2018]; root of context hierarchy
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'handlerExceptionResolver' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'handlerExceptionResolver'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'requestMappingHandlerMapping'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'mvcConversionService'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'mvcConversionService'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'mvcConversionService' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'mvcConversionService'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'mvcResourceUrlProvider'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'mvcResourceUrlProvider' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'mvcResourceUrlProvider'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'requestMappingHandlerMapping' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerMapping'
+2018-09-02 14:48:32 DEBUG RequestMappingHandlerMapping:195 - Looking for request mappings in application context: Root WebApplicationContext: startup date [Sun Sep 02 14:48:31 IST 2018]; root of context hierarchy
+2018-09-02 14:48:32 DEBUG RequestMappingHandlerMapping:239 - 3 request handler methods found on class com.transactions.view.controller.TransactionsController: {public java.util.Map com.transactions.view.controller.TransactionsController.getAllTransactionList(javax.servlet.http.HttpServletRequest)={[/transactions/getAllTransactionList],methods=[GET],produces=[application/json]}, public java.util.Map com.transactions.view.controller.TransactionsController.getTotalAmountByTransactionType(java.lang.String,javax.servlet.http.HttpServletRequest)={[/transactions/getTotalAmountByTransactionType/{transactionType}],methods=[GET],produces=[application/json]}, public java.util.Map com.transactions.view.controller.TransactionsController.getTransactionsListByTransactionType(java.lang.String,javax.servlet.http.HttpServletRequest)={[/transactions/getTransactionsListByTransactionType/{transactionType}],methods=[GET],produces=[application/json]}}
+2018-09-02 14:48:32 INFO  RequestMappingHandlerMapping:537 - Mapped "{[/transactions/getAllTransactionList],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.transactions.view.controller.TransactionsController.getAllTransactionList(javax.servlet.http.HttpServletRequest)
+2018-09-02 14:48:32 INFO  RequestMappingHandlerMapping:537 - Mapped "{[/transactions/getTotalAmountByTransactionType/{transactionType}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.transactions.view.controller.TransactionsController.getTotalAmountByTransactionType(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-09-02 14:48:32 INFO  RequestMappingHandlerMapping:537 - Mapped "{[/transactions/getTransactionsListByTransactionType/{transactionType}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.transactions.view.controller.TransactionsController.getTransactionsListByTransactionType(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'requestMappingHandlerMapping'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcConversionService'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'requestMappingHandlerAdapter'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcConversionService'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'mvcValidator'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'mvcValidator'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'mvcValidator' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'mvcValidator'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'requestMappingHandlerAdapter' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerAdapter'
+2018-09-02 14:48:32 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sun Sep 02 14:48:31 IST 2018]; root of context hierarchy
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'requestMappingHandlerAdapter'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'httpRequestHandlerAdapter'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'httpRequestHandlerAdapter' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'httpRequestHandlerAdapter'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'mvcUriComponentsContributor'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcConversionService'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'mvcUriComponentsContributor'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'resourceHandlerMapping'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'resourceHandlerMapping'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'resourceHandlerMapping' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'resourceHandlerMapping'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'simpleControllerHandlerAdapter'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'simpleControllerHandlerAdapter' to allow for resolving potential circular references
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'simpleControllerHandlerAdapter'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'viewControllerHandlerMapping'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'mvcPathMatcher'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'mvcPathMatcher'
+2018-09-02 14:48:32 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'mvcPathMatcher' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'mvcPathMatcher'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'mvcUrlPathHelper'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'mvcUrlPathHelper' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'mvcUrlPathHelper'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'viewControllerHandlerMapping' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'viewControllerHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'beanNameHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'beanNameHandlerMapping' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:71 - Looking for URL mappings in application context: Root WebApplicationContext: startup date [Sun Sep 02 14:48:31 IST 2018]; root of context hierarchy
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'appConfig': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'transactionsController': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'transactionsService': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'mvcConversionService': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'mvcPathMatcher': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'mvcValidator': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'mvcViewResolver': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'environment': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'systemProperties': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'systemEnvironment': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'servletContext': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'contextParameters': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'contextAttributes': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'messageSource': no URL paths identified
+2018-09-02 14:48:33 DEBUG BeanNameUrlHandlerMapping:86 - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'beanNameHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'defaultServletHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'defaultServletHandlerMapping' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'defaultServletHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcPathMatcher'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcValidator'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'mvcViewResolver'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'mvcViewResolver'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'mvcViewResolver' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:1620 - Invoking afterPropertiesSet() on bean with name 'mvcViewResolver'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'mvcViewResolver'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-02 14:48:33 DEBUG AnnotationConfigWebApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@7f04ba0c]
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+2018-09-02 14:48:33 DEBUG ResourceUrlProvider:139 - Looking for resource handler mappings
+2018-09-02 14:48:33 DEBUG ResourceUrlProvider:130 - No resource handling mappings found
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+2018-09-02 14:48:33 DEBUG JndiTemplate:150 - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2018-09-02 14:48:33 DEBUG JndiLocatorDelegate:101 - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2018-09-02 14:48:33 DEBUG JndiTemplate:150 - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2018-09-02 14:48:33 DEBUG JndiPropertySource:90 - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [class path resource [application.properties]]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-09-02 14:48:33 DEBUG ContextLoader:340 - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-09-02 14:48:33 INFO  ContextLoader:345 - Root WebApplicationContext: initialization completed in 2291 ms
+2018-09-02 14:48:33 DEBUG DispatcherServlet:118 - Initializing servlet 'dispatcher'
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [jndiProperties] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:127 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2018-09-02 14:48:33 INFO  DispatcherServlet:489 - FrameworkServlet 'dispatcher': initialization started
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [jndiProperties] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:127 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:109 - Adding [class path resource [application.properties]] PropertySource with lowest search precedence
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [servletConfigInitParams]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [servletContextInitParams]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [jndiProperties]
+2018-09-02 14:48:33 DEBUG JndiTemplate:150 - Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+2018-09-02 14:48:33 DEBUG JndiLocatorDelegate:101 - Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active] is not bound in this Context. Unable to find [spring.profiles.active].
+2018-09-02 14:48:33 DEBUG JndiTemplate:150 - Looking up JNDI object with name [spring.profiles.active]
+2018-09-02 14:48:33 DEBUG JndiPropertySource:90 - JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active] is not bound in this Context. Unable to find [spring.profiles.active].. Returning null.
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [systemProperties]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [systemEnvironment]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.active' in [class path resource [application.properties]]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.profiles.active' in any property source. Returning [null]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [servletContextInitParams]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [jndiProperties]
+2018-09-02 14:48:33 DEBUG JndiTemplate:150 - Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+2018-09-02 14:48:33 DEBUG JndiLocatorDelegate:101 - Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].
+2018-09-02 14:48:33 DEBUG JndiTemplate:150 - Looking up JNDI object with name [spring.profiles.default]
+2018-09-02 14:48:33 DEBUG JndiPropertySource:90 - JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].. Returning null.
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [systemProperties]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [systemEnvironment]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.profiles.default' in [class path resource [application.properties]]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.profiles.default' in any property source. Returning [null]
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:174 - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2018-09-02 14:48:33 DEBUG StandardServletEnvironment:174 - Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+2018-09-02 14:48:33 INFO  AnnotationConfigWebApplicationContext:581 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Sep 02 14:48:33 IST 2018]; parent: Root WebApplicationContext
+2018-09-02 14:48:33 DEBUG ClassPathBeanDefinitionScanner:244 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2018-09-02 14:48:33 DEBUG ClassPathBeanDefinitionScanner:252 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2018-09-02 14:48:33 DEBUG AnnotationConfigWebApplicationContext:615 - Bean factory for WebApplicationContext for namespace 'dispatcher-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@1e551516: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@64c031c
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:879 - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@751f324d]
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:879 - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@58b1b139]
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:879 - Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@6efaf29c]
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:879 - Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@5139bcd1]
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-09-02 14:48:33 INFO  AutowiredAnnotationBeanPostProcessor:156 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-09-02 14:48:33 DEBUG AnnotationConfigWebApplicationContext:728 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@8d52b16]
+2018-09-02 14:48:33 DEBUG AnnotationConfigWebApplicationContext:752 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@31024682]
+2018-09-02 14:48:33 DEBUG UiApplicationContextUtils:85 - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@1244f097]
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:744 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e551516: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@64c031c
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-09-02 14:48:33 DEBUG AnnotationConfigWebApplicationContext:779 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@11ea9cf5]
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-09-02 14:48:33 DEBUG DispatcherServlet:511 - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-09-02 14:48:33 DEBUG DispatcherServlet:533 - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@78785d1e]
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-09-02 14:48:33 DEBUG DispatcherServlet:555 - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@31641d7c]
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'resourceHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'beanNameHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'handlerExceptionResolver'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-09-02 14:48:33 DEBUG DispatcherServlet:692 - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@23b9fffc]
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'mvcViewResolver'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-09-02 14:48:33 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-09-02 14:48:33 DEBUG DispatcherServlet:753 - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@479ec7e]
+2018-09-02 14:48:33 DEBUG ResourceUrlProvider:139 - Looking for resource handler mappings
+2018-09-02 14:48:33 DEBUG ResourceUrlProvider:130 - No resource handling mappings found
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+2018-09-02 14:48:33 DEBUG JndiTemplate:150 - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2018-09-02 14:48:33 DEBUG JndiLocatorDelegate:101 - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2018-09-02 14:48:33 DEBUG JndiTemplate:150 - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2018-09-02 14:48:33 DEBUG JndiPropertySource:90 - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [class path resource [application.properties]]
+2018-09-02 14:48:33 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-09-02 14:48:33 DEBUG DispatcherServlet:568 - Published WebApplicationContext of servlet 'dispatcher' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcher]
+2018-09-02 14:48:33 INFO  DispatcherServlet:508 - FrameworkServlet 'dispatcher': initialization completed in 305 ms
+2018-09-02 14:48:33 DEBUG DispatcherServlet:139 - Servlet 'dispatcher' configured successfully
+2018-09-02 14:49:03 DEBUG DispatcherServlet:865 - DispatcherServlet with name 'dispatcher' processing GET request for [/transactions/getTotalAmountByTransactionType/SANDBOX_TAN]
+2018-09-02 14:49:03 DEBUG RequestMappingHandlerMapping:304 - Looking up handler method for path /transactions/getTotalAmountByTransactionType/SANDBOX_TAN
+2018-09-02 14:49:03 DEBUG RequestMappingHandlerMapping:311 - Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.transactions.view.controller.TransactionsController.getTotalAmountByTransactionType(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-02 14:49:03 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'transactionsController'
+2018-09-02 14:49:03 DEBUG DispatcherServlet:951 - Last-Modified value for [/transactions/getTotalAmountByTransactionType/SANDBOX_TAN] is: -1
+2018-09-02 14:49:03 INFO  TransactionsController:148 - Logger Name: getTotalAmountByTransactionType() :: com.transactions.view.controller.TransactionsController
+2018-09-02 14:49:03 DEBUG TransactionsController:156 - authorization_code Value : ABCD1234TEST567XYZ
+2018-09-02 14:49:03 INFO  TransactionsService:224 - Logger Name: getTotalAmountbyTransactionType() :: com.transactions.view.service.TransactionsService
+2018-09-02 14:49:03 DEBUG TransactionsService:225 - Transaction Type : getTotalAmountbyTransactionType() :: SANDBOX_TAN
+2018-09-02 14:49:03 INFO  TransactionsService:229 - Open Bank API URL :: getTotalAmountbyTransactionType() :: https://apisandbox.openbankproject.com/obp/v1.2.1/banks/rbs/accounts/savings-kids-john/public/transactions
+2018-09-02 14:49:15 INFO  TransactionsService:260 - Response from Service layer :: Total Amount: getTotalAmountbyTransactionType() :: 10.0
+2018-09-02 14:49:15 INFO  TransactionsController:168 - Authorization code is valid :: response prepared successfully.
+2018-09-02 14:49:15 INFO  TransactionsController:181 - Response from Contyroller layer ::Total Amount: getTotalAmountByTransactionType() :: {result=success, data=SANDBOX_TAN : 10.0}
+2018-09-02 14:49:15 DEBUG RequestResponseBodyMethodProcessor:228 - Written [{result=success, data=SANDBOX_TAN : 10.0}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@442b9b15]
+2018-09-02 14:49:15 DEBUG DispatcherServlet:1044 - Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2018-09-02 14:49:15 DEBUG DispatcherServlet:1000 - Successfully completed request
+2018-09-02 14:49:43 INFO  AnnotationConfigWebApplicationContext:982 - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Sep 02 14:48:33 IST 2018]; parent: Root WebApplicationContext
+2018-09-02 14:49:43 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-09-02 14:49:43 DEBUG DefaultListableBeanFactory:512 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e551516: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@64c031c
+2018-09-02 14:49:43 INFO  AnnotationConfigWebApplicationContext:982 - Closing Root WebApplicationContext: startup date [Sun Sep 02 14:48:31 IST 2018]; root of context hierarchy
+2018-09-02 14:49:43 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-09-02 14:49:43 DEBUG DefaultListableBeanFactory:512 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@64c031c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,transactionsController,transactionsService,org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration,handlerExceptionResolver,mvcContentNegotiationManager,requestMappingHandlerMapping,mvcConversionService,requestMappingHandlerAdapter,mvcResourceUrlProvider,httpRequestHandlerAdapter,mvcUriComponentsContributor,resourceHandlerMapping,simpleControllerHandlerAdapter,viewControllerHandlerMapping,beanNameHandlerMapping,defaultServletHandlerMapping,mvcPathMatcher,mvcUrlPathHelper,mvcValidator,mvcViewResolver]; root of factory hierarchy
