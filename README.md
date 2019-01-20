@@ -1,2 +1,3 @@
 # Digital-BankTransactionListApp
-Simplified and consolidated digital bank transaction management application using Java 8, Spring Boot/Microservices/Spring 4, Restful Services, Docker, AWS Lambda, Maven,Spring Data JPA, Junit, Mockito.
+
+Simplified and consolidated digital bank transaction management application using Java 8, Spring Boot/Microservices/Spring 4, Rest API, Docker, AWS Lambda, Maven, Spring Data JPA, Junit, Mockito. This application will take the input from different type of API end points, which will come from various third part banks/financial organizations. Then this application will process and transform those data and make one consolidated view list for a user, so that user can get the consolidated transactions list view for his/her all transaction for day/week/month/year across all his/her banks/financial institutes.
